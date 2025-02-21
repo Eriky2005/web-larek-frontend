@@ -30,6 +30,7 @@
 		<main class="gallery"></main>
 	</div>
 
+	<!--мод окно, куда вставлять темплейты-->
 	<div class="modal" id="modal-container">
 		<div class="modal__container">
 			<button class="modal__close" aria-label="закрыть"></button>
@@ -39,6 +40,7 @@
 		</div>
 	</div>
 
+	<!--мод окно карточки-->
 	<div class="modal modal_active">
 		<div class="modal__container">
 			<button class="modal__close" aria-label="закрыть"></button>
@@ -59,6 +61,7 @@
 		</div>
 	</div>
 
+	<!--мод окно корзины-->
 	<div class="modal">
 		<div class="modal__container">
 			<button class="modal__close" aria-label="закрыть"></button>
@@ -94,6 +97,7 @@
 		</div>
 	</div>
 
+	<!--мод окно оплаты и адреса-->
 	<div class="modal">
 		<div class="modal__container">
 			<button class="modal__close" aria-label="закрыть"></button>
@@ -120,6 +124,7 @@
 		</div>
 	</div>
 
+	<!--мод окно почты и телефона-->
 	<div class="modal">
 		<div class="modal__container">
 			<button class="modal__close" aria-label="закрыть"></button>
@@ -143,6 +148,7 @@
 		</div>
 	</div>
 
+	<!--мод окно успешно-->
 	<div class="modal">
 		<div class="modal__container">
 			<button class="modal__close" aria-label="закрыть"></button>
@@ -156,6 +162,7 @@
 		</div>
 	</div>
 
+	<!--темплейт мод окна успешно-->
 	<template id="success">
 		<div class="order-success">
 			<h2 class="order-success__title">Заказ оформлен</h2>
@@ -164,6 +171,7 @@
 		</div>
 	</template>
 
+	<!--темплейт самой карточки-->
 	<template id="card-catalog">
 		<button class="gallery__item card">
 			<span class="card__category card__category_soft">софт-скил</span>
@@ -173,6 +181,7 @@
 		</button>
 	</template>
 
+	<!--темплейт для мод окна карточки-->
 	<template id="card-preview">
 		<div class="card card_full">
 			<img class="card__image" src="<%=require('../images/Subtract.svg')%>" alt="" />
@@ -188,6 +197,7 @@
 		</div>
 	</template>
 
+	<!--темплейт для карточки в мод окне корзины-->
 	<template id="card-basket">
 		<li class="basket__item card card_compact">
 			<span class="basket__item-index">1</span>
@@ -197,6 +207,7 @@
 		</li>
 	</template>
 
+	<!--темплейт для мод окна корзины-->
 	<template id="basket">
 		<div class="basket">
 			<h2 class="modal__title">Корзина</h2>
